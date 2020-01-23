@@ -2,7 +2,7 @@
 author: person
 layout: post-full
 title: Full Width Post
-featimg: 2.jpg
+featimg: https://www.omiod.com/gfx/fastkat/fastkat-2-logo.png
 tags: [text]
 category: [standard]
 ---

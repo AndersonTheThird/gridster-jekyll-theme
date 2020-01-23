@@ -1,16 +1,10 @@
 ---
 author: person
 layout: post-full
-title: Full Width Post
+title: FastKat 2
 featimg: https://www.omiod.com/gfx/fastkat/fastkat-2-logo.png
 tags: [text]
 category: [standard]
 ---
-a standard post displayed at full-width, only requires a layout, variable.
-The featured image will be added at the beginning of the content, but not above it, as in an image post.
+Avoid hitting the particles by moving with your mouse. Try to stay alive and earn as many points as possible.
 
-```yml
----
-layout: post-full
----
-```

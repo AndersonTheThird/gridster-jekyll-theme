@@ -5,7 +5,7 @@
 <article style="border-radius: 20px;">
             {% if post.featimg %}
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
-                    <img style="border-radius: 20px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;" src="{{ thumb }}" alt="{{ thumb }}">
+                    <img style="border-radius: 20px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;" src="{{ post.featimg }}" alt="{{ thumb }}">
                 </a>
             {% endif %}
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
@@ -13,6 +13,6 @@
     </a>
     <p class="post-content">{{ post.content | strip_html | truncatewords: 15 }}</p>
     <p class="actions">
-        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">Read More</a>
+        <center><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">Play</a></center>
     </p>
 </article>

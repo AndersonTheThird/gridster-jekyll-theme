@@ -13,6 +13,6 @@
     </a>
 <p class="post-content">{{ post.description }}</p>
     <p class="actions">
-       <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">Play</a>
+       <a onclick="playgame('{{ #post.embed }}')">Play</a>
     </p>
 </article>
